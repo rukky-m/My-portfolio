@@ -263,6 +263,7 @@
       }
     
       .hero h1{
+        color: #007BFF;
         font-size: 3rem;
         margin-bottom: 30px;
       }
