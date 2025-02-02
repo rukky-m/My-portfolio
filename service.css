@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background-color: #00bcd4;
+  background-color: #022342;
   color: #fff;
   padding: 2rem 1rem;
   text-align: center;
@@ -62,7 +62,7 @@ header p {
 
 .service-card h3 {
   font-size: 1.5rem;
-  color: #00bcd4;
+  color: #022342;
   margin: 1rem;
 }
 
@@ -76,7 +76,7 @@ header p {
   margin: 1rem;
   text-align: center;
   padding: 0.75rem;
-  background-color: #00bcd4;
+  background-color: #022342;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
@@ -85,13 +85,13 @@ header p {
 }
 
 .service-card a:hover {
-  background-color: #008c9e;
+  background-color: #777f80;
 }
 
 footer {
   text-align: center;
-  padding: 1rem;
-  background-color: #f4f4f4;
+  padding: 2.5rem;
+  background-color: #022342;
   margin-top: 2rem;
-  color: #777;
+  color: #fff;
 }

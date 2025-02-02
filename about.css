@@ -7,13 +7,13 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f9fafc;
-  color: #333;
+background-color: #f4f4f4;
+  color: #022342;
   line-height: 1.6;
 }
 
 header {
-  background-color: #00bcd4;
+  background-color:  #022342;
   color: #fff;
   padding: 2rem 1rem;
   text-align: center;
@@ -59,13 +59,13 @@ header p {
 
 .about-text h2 {
   font-size: 2rem;
-  color: #00bcd4;
+  color:#022342;
   margin-bottom: 1rem;
 }
 
 .about-text p {
   margin-bottom: 1rem;
-  color: #555;
+  color: #022342;
 }
 
 .skills-section {
@@ -74,7 +74,7 @@ header p {
 
 .skills-section h3 {
   font-size: 1.8rem;
-  color: #00bcd4;
+  color: #022342;
   margin-bottom: 1rem;
 }
 
@@ -95,13 +95,39 @@ header p {
 
 .skill-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 2 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 footer {
   text-align: center;
-  padding: 1rem;
-  background-color: #f4f4f4;
+  padding: 2.5rem;
+  background-color: #022342;
   margin-top: 2rem;
-  color: #777;
+  color: #f4f4f4;
 }
+
+@media(max-width:768px) {
+  .about-image{
+    columns: 1;
+    max-width: 300PX;
+  }
+  .about-text{
+    columns: 1;
+  }
+ 
+    
+   }
+
+@media(max-width:992px) {
+.about-image{
+  columns: 1;
+  max-width: 300PX;
+}
+.about-text{
+  columns: 1;
+}
+.about-section{
+  display: column;
+}
+  
+ }

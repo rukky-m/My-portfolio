@@ -8,11 +8,15 @@
 html, body {
   height: 100%;
   font-family: 'Arial', sans-serif;
-  background-color: #f9fafc;
+  background-color: #dbd6d6;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   color: #333;
 }
 
 body {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: flex-start; /* Align items at the top for scrolling */
@@ -21,8 +25,8 @@ body {
 }
 
 .contact-container {
-  background-color: #00bcd4;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #022342;
+  box-shadow: 0 4px 10px rgba(226, 230, 231, 0.1);
   border-radius: 12px;
   width: 100%;
   max-width: 600px;
@@ -32,7 +36,7 @@ body {
 
 .contact-container h1 {
   font-size: 2rem;
-  color: #222;
+  color: #ffffff;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -40,7 +44,7 @@ body {
 .contact-container p {
   font-size: 1rem;
   text-align: center;
-  color: #666;
+  color: #dbd6d6;
   margin-bottom: 2rem;
 }
 
@@ -56,7 +60,7 @@ body {
   display: block;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: #ffffff;
 }
 
 .form-group input,
@@ -87,7 +91,7 @@ body {
   display: block;
   width: 100%;
   padding: 0.75rem;
-  background-color: #00bcd4;
+  background-color: #253450;
   border: none;
   border-radius: 8px;
   font-size: 1rem;
@@ -98,7 +102,7 @@ body {
 }
 
 .contact-btn:hover {
-  background-color: #008c9e;
+  background-color: #777f80;
 }
 
 .form-note {

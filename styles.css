@@ -13,25 +13,28 @@
         font-family: Arial,sans-serif;
         line-height: 1.6;
         color: #333;
-        background-color: #f9f9f9;
+        background-color:  #FFFF;
+        cursor: pointer;
     }
     
     header{
         text-align: center;
-        padding: 70px ;
-        color: white;
+        padding: 50px ;
+        color:#FFFF;
+        margin-top: 4cqmax;
     
     }
     
     footer{
         text-align: center;
-        padding: 40px ;
+        padding: 20px ;
         color: white;
     
     }
 
     header {
-        background: linear-gradient(to right, #007BFF, #6610f2);
+      margin-top: 30px;
+        background-color: #022342;
       }
     
       footer {
@@ -107,7 +110,7 @@
     }
     
     .dark-mode .navbar-link:hover {
-        background-color: #444;
+        background-color: #022342;
     }
     
     .dropdown-menu {
@@ -120,7 +123,7 @@
     }
     
     .dark-mode .dropdown-menu {
-        background-color: #222;
+        background-color: #022342;
     }
     
     .navbar-item:hover .dropdown-menu {
@@ -144,7 +147,7 @@
     }
     
     .dark-mode .dropdown-item:hover {
-        background-color: #444;
+        background-color: ;
     }
     
     .navbar-toggle {
@@ -257,14 +260,14 @@
         flex-direction: column;
         text-align: center;
         padding: 40px 20px;
-        background:url('......................') no-repeat center/cover;
-        color: rgb(63, 4, 4);
+        background-color: #f6f7f4 ;
+        color: #022342;
         height: 60hv;
       }
     
       .hero h1{
-        color: #007BFF;
-        font-size: 3rem;
+        color: #022342;
+        font-size: 1rem;
         margin-bottom: 30px;
       }
     
@@ -275,7 +278,7 @@
       }
     
       .hero a{
-        background: #007BFF;
+        background: #022342;
         color: white;
         padding: 10px 20px;
         border-radius: 5px;
@@ -288,40 +291,43 @@
       .content{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        padding: 40px;
+        gap: 3px;
+        padding: 6px;
     
       }
     
       .content .card{
-        background: white;
+        background: #022342;
         padding: 20px;
-        box-shadow: 0 4px 6px rgb(red, green, blue);
+        margin-left;
+        box-shadow: 0 4px 6px rgb(0,0,0,0,);
         border-radius: 5px;
-        transition:transform 0.3 ease, shadow-box 0.3 ease;
+        transition:transform 0.3S ease, shadow-box 0.3S ease-in;
       }
     
       .content .card:hover{
         transform:translateY(-5px);
-        box-shadow: 0.8px 15px rgba(211, 7, 7, 0.2);
+        box-shadow: 0.3px 5px #fff;
       }
     
-      .content .card h3{
+      .content .card h2{
         margin-bottom: 10px;
+        color: #FFFF;
     
       }
     
       .content .card p{
         font-size: 0.9rem;
-        color:#555;
+        color: #FFFF;
       }
     
       .content .card a{
         display: inline-block;
         margin-top: 10px;
+        cursor: pointer;
         font-size: 0.9rem;
-        background: #007BFF;
-        color: white;
+        background: #f6f7f4 ;
+        color: #022342 ;
         padding: 5px 10px;
         border-radius: 3px;
         list-style: none;
@@ -330,10 +336,10 @@
       }
     
       footer {
-        background-color: #333;
+        background-color: #022342;
         color: #fff;
         text-align: center;
-        padding: 2rem 1rem;
+        padding: 0.5rem 3.5rem;
       }
       
       .footer-container {
@@ -434,9 +440,16 @@
             grid-template-columns: repeat(1, 1fr);
     
         }
+        header {
+          font-size: 11px;
+        }
         .hero h1{
-            font-size: 2.5rem;
+            font-size: 1.5rem;
         
+        }
+        .hero p {
+          font-size: 1.2rem;
+          margin-bottom: 12px;
         }
 
         .dropdown-menu{
